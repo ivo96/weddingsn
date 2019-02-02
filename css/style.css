@@ -233,6 +233,17 @@ button:focus {
     padding: 0px;
     border-radius: 0px;
   }
+
+  .home_banner_area .banner_inner .overlay {
+    background: url(../img/banner/home-banner.jpg) no-repeat scroll center center;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 20%;
+    bottom: 0;
+    z-index: -1;
+  }
 }
 
 .header_area .navbar .nav .nav-item.submenu ul:before {
@@ -1818,6 +1829,17 @@ button:focus {
 @media (max-width: 767px) {
   .single-post-area .navigation-area .nav-left {
     margin-bottom: 30px;
+  }
+
+  .home_banner_area .banner_inner .overlay {
+    background: url(../img/banner/banner-mobile.jpg) no-repeat scroll center center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    height: 100%;
+    bottom: 0;
+    z-index: -1;
   }
 }
 
